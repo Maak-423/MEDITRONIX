@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const navLinks = [
@@ -20,9 +21,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">M</span>
-            </div>
+            <Image
+              src="/Meditronix.png"
+              alt="Diksha Meditronix Logo"
+              width={40}
+              height={40}
+              className="rounded-lg"
+            />
             <span className="text-xl font-bold text-primary">DIKSHA MEDITRONIX</span>
           </Link>
 
