@@ -10,6 +10,7 @@ const stats = [
 const products = [
   {
     title: "Operation Theatre Equipment",
+    slug: "ot-equipment",
     description:
       "Complete OT setup including surgical lights, tables, pendants, and sterilization systems.",
     icon: (
@@ -30,6 +31,7 @@ const products = [
   },
   {
     title: "ICU Setup",
+    slug: "icu-setup",
     description:
       "State-of-the-art ICU beds, ventilators, patient monitors, and infusion systems.",
     icon: (
@@ -50,6 +52,7 @@ const products = [
   },
   {
     title: "NICU Equipment",
+    slug: "nicu-equipment",
     description:
       "Baby warmers, phototherapy units, incubators, and neonatal care systems.",
     icon: (
@@ -70,6 +73,7 @@ const products = [
   },
   {
     title: "Physiotherapy Equipment",
+    slug: "physiotherapy",
     description:
       "Comprehensive physiotherapy setups including electrotherapy, traction, and exercise equipment.",
     icon: (
@@ -90,6 +94,7 @@ const products = [
   },
   {
     title: "Patient Monitors",
+    slug: "patient-monitors",
     description:
       "Multi-parameter monitors, pulse oximeters, ECG machines, and vital sign monitors.",
     icon: (
@@ -110,6 +115,7 @@ const products = [
   },
   {
     title: "Surgical Instruments",
+    slug: "surgical-instruments",
     description:
       "High-quality surgical tools, suction machines, and sterilization equipment.",
     icon: (
@@ -218,18 +224,25 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
-              <div
+              <Link
                 key={product.title}
-                className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow duration-300"
+                href={`/products/${product.slug}`}
+                className="bg-white border border-gray-100 rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow duration-300 group"
               >
                 <div className="mb-4">{product.icon}</div>
-                <h3 className="text-xl font-semibold text-dark mb-2">
+                <h3 className="text-xl font-semibold text-dark mb-2 group-hover:text-primary transition-colors">
                   {product.title}
                 </h3>
                 <p className="text-gray leading-relaxed">
                   {product.description}
                 </p>
-              </div>
+                <span className="inline-flex items-center gap-1 mt-4 text-primary font-medium text-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                  Learn More
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
             ))}
           </div>
           <div className="text-center mt-10">

@@ -1,19 +1,26 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-dark text-white">
+    <footer className="bg-light text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">M</span>
-              </div>
-              <span className="text-xl font-bold">DIKSHA MEDITRONIX</span>
+              {/* <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center"> */}
+                <Image
+                  src="/Meditronix.png"
+                  alt="Diksha Meditronix Logo"
+                  width={160}
+                  height={50}
+                  className="rounded-lg"
+                />
+              {/* </div> */}
+              {/* <span className="text-xl font-bold">DIKSHA MEDITRONIX</span> */}
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-900 text-sm leading-relaxed">
               Leading manufacturer and distributor of advanced medical and
               hospital equipment. Committed to delivering quality healthcare
               solutions across India.
@@ -34,7 +41,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-gray-300 hover:text-secondary transition-colors duration-200 text-sm"
+                    className="text-gray-900 hover:text-secondary transition-colors duration-200 text-sm"
                   >
                     {link.label}
                   </Link>
@@ -58,7 +65,7 @@ export default function Footer() {
                 <li key={item}>
                   <Link
                     href="/products"
-                    className="text-gray-300 hover:text-secondary transition-colors duration-200 text-sm"
+                    className="text-gray-900 hover:text-secondary transition-colors duration-200 text-sm"
                   >
                     {item}
                   </Link>
@@ -70,7 +77,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-3 text-sm text-gray-300">
+            <ul className="space-y-3 text-sm text-gray-900">
               <li className="flex items-start gap-2">
                 <svg
                   className="w-5 h-5 text-secondary shrink-0 mt-0.5"

@@ -24,11 +24,10 @@ export default function Navbar() {
             <Image
               src="/Meditronix.png"
               alt="Diksha Meditronix Logo"
-              width={40}
-              height={40}
+              width={160}
+              height={50}
               className="rounded-lg"
             />
-            <span className="text-xl font-bold text-primary">DIKSHA MEDITRONIX</span>
           </Link>
 
           {/* Desktop Navigation */}

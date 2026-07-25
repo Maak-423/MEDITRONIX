@@ -147,14 +147,19 @@ export default function ProductsPage() {
               <div
                 key={category.id}
                 id={category.id}
-                className={`grid lg:grid-cols-2 gap-8 items-center ${
+                className={`group grid lg:grid-cols-2 gap-8 items-center ${
                   index % 2 === 1 ? "lg:direction-rtl" : ""
                 }`}
               >
                 <div className={index % 2 === 1 ? "lg:order-2" : ""}>
-                  <h2 className="text-2xl md:text-3xl font-bold text-dark mb-4">
-                    {category.title}
-                  </h2>
+                  <Link href={`/products/${category.id}`}>
+                    <h2 className="text-2xl md:text-3xl font-bold text-dark mb-4 hover:text-primary transition-colors duration-200 cursor-pointer">
+                      {category.title}
+                      <svg className="w-6 h-6 inline-block ml-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </h2>
+                  </Link>
                   <p className="text-gray leading-relaxed mb-6">
                     {category.description}
                   </p>
@@ -178,6 +183,15 @@ export default function ProductsPage() {
                       </li>
                     ))}
                   </ul>
+                  <Link
+                    href={`/products/${category.id}`}
+                    className="inline-flex items-center gap-2 mt-6 text-primary font-semibold hover:text-primary-dark transition-colors duration-200"
+                  >
+                    View All {category.title}
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </div>
                 <div
                   className={`bg-gray-light rounded-2xl p-12 flex items-center justify-center ${

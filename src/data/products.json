@@ -1,0 +1,460 @@
+{
+  "categories": [
+    {
+      "id": "ot-equipment",
+      "title": "Operation Theatre Equipment",
+      "slug": "ot-equipment",
+      "description": "Complete Operation Theatre solutions designed for precision, reliability, and surgeon comfort. Our OT equipment range includes state-of-the-art surgical lights, versatile operating tables, and advanced anesthesia systems that meet international standards.",
+      "heroImage": "ot-equipment-hero.jpg",
+      "instruments": [
+        {
+          "id": "led-surgical-lights",
+          "name": "LED Surgical Lights",
+          "description": "High-intensity LED surgical lights providing shadow-free illumination with adjustable color temperature (3500K-5000K). Features include touchless on/off sensors, multiple dome configurations, and integrated HD camera options for documentation and teaching purposes.",
+          "image": "led-surgical-lights.jpg",
+          "features": ["Shadow-free illumination", "Adjustable color temperature", "Touchless sensors", "HD camera integration"],
+          "applications": ["General surgery", "Cardiac surgery", "Neurosurgery", "Orthopedic surgery"]
+        },
+        {
+          "id": "ot-tables",
+          "name": "OT Tables (Hydraulic & Electric)",
+          "description": "Precision-engineered operating tables with hydraulic and electric positioning systems. Offers multi-axis movement including Trendelenburg, lateral tilt, and height adjustment. Radiolucent tabletop allows intraoperative imaging without repositioning the patient.",
+          "image": "ot-tables.jpg",
+          "features": ["Multi-axis positioning", "Radiolucent tabletop", "Memory positions", "Weight capacity up to 250kg"],
+          "applications": ["General surgery", "Orthopedics", "Gynecology", "Urology"]
+        },
+        {
+          "id": "surgical-pendants",
+          "name": "Surgical Pendants",
+          "description": "Ceiling-mounted surgical pendants providing organized gas supply, electrical outlets, and data connections at the point of care. Rotatable arms with adjustable height ensure optimal positioning while maintaining a clutter-free operating environment.",
+          "image": "surgical-pendants.jpg",
+          "features": ["360° rotation", "Gas supply integration", "Electrical outlets", "Cable management"],
+          "applications": ["Operation theatres", "ICU", "Recovery rooms", "Procedure rooms"]
+        },
+        {
+          "id": "electrosurgical-units",
+          "name": "Electrosurgical Units",
+          "description": "Advanced electrosurgical generators offering precise cutting and coagulation modes with power outputs ranging from 1-400W. Features include vessel sealing technology, smoke evacuation, and safety systems to prevent unintended tissue damage.",
+          "image": "electrosurgical-units.jpg",
+          "features": ["Multiple cutting modes", "Vessel sealing", "Smoke evacuation", "Auto-power adjustment"],
+          "applications": ["General surgery", "Laparoscopy", "Dermatology", "ENT surgery"]
+        },
+        {
+          "id": "anesthesia-workstations",
+          "name": "Anesthesia Workstations",
+          "description": "Fully integrated anesthesia delivery systems with electronic gas mixing, advanced ventilation modes, and comprehensive patient monitoring. Equipped with agent-specific vaporizers, circle breathing systems, and automated self-test functionality for enhanced safety.",
+          "image": "anesthesia-workstations.jpg",
+          "features": ["Electronic gas mixing", "Multiple ventilation modes", "Agent monitoring", "Automated self-test"],
+          "applications": ["General anesthesia", "Regional anesthesia", "Pediatric anesthesia", "Day surgery"]
+        },
+        {
+          "id": "ot-sterilizers",
+          "name": "OT Room Sterilizers",
+          "description": "Hospital-grade sterilization systems including plasma, ETO, and steam sterilizers designed for surgical instruments and sensitive medical devices. Features rapid cycle times, biological indicator integration, and full traceability with digital record keeping.",
+          "image": "ot-sterilizers.jpg",
+          "features": ["Rapid sterilization cycles", "Multiple sterilization methods", "Digital traceability", "Biological indicators"],
+          "applications": ["Surgical instruments", "Endoscopes", "Implants", "Linen sterilization"]
+        }
+      ]
+    },
+    {
+      "id": "icu-setup",
+      "title": "ICU Equipment",
+      "slug": "icu-setup",
+      "description": "Advanced Intensive Care Unit equipment for critical patient monitoring and life support. Our ICU solutions integrate seamlessly to provide comprehensive care management for critically ill patients with real-time data connectivity.",
+      "heroImage": "icu-setup-hero.jpg",
+      "instruments": [
+        {
+          "id": "icu-beds",
+          "name": "ICU Beds (Motorized)",
+          "description": "Fully motorized ICU beds with intuitive controls for precise patient positioning. Features include integrated weighing scale, CPR quick-release, lateral tilt therapy, and programmable Trendelenburg positions. Anti-microbial surfaces ensure infection control compliance.",
+          "image": "icu-beds.jpg",
+          "features": ["Motorized positioning", "Integrated weighing", "CPR quick-release", "Lateral tilt therapy"],
+          "applications": ["Intensive care", "Cardiac care", "Post-surgical recovery", "Long-term care"]
+        },
+        {
+          "id": "ventilators",
+          "name": "Ventilators",
+          "description": "Invasive and non-invasive ventilators supporting all modes including volume control, pressure control, SIMV, CPAP, and BiPAP. High-resolution waveform displays, lung mechanics monitoring, and smart alarms ensure precise respiratory support for critically ill patients.",
+          "image": "ventilators.jpg",
+          "features": ["All ventilation modes", "Waveform monitoring", "Lung mechanics", "Non-invasive options"],
+          "applications": ["ICU ventilation", "Emergency care", "Neonatal care", "Home ventilation"]
+        },
+        {
+          "id": "patient-monitors-icu",
+          "name": "Patient Monitors",
+          "description": "Multi-parameter bedside monitors tracking ECG, SpO2, NIBP, IBP, temperature, EtCO2, and cardiac output. Features include arrhythmia analysis, ST-segment monitoring, drug calculation, and seamless integration with central monitoring stations and EMR systems.",
+          "image": "patient-monitors-icu.jpg",
+          "features": ["Multi-parameter tracking", "Arrhythmia analysis", "Central station connectivity", "EMR integration"],
+          "applications": ["ICU monitoring", "OR monitoring", "Step-down units", "Emergency departments"]
+        },
+        {
+          "id": "infusion-pumps",
+          "name": "Infusion Pumps",
+          "description": "Precision volumetric infusion pumps with dose error reduction systems and extensive drug libraries. Supports micro-infusion rates from 0.1 mL/hr with ±2% accuracy. Features include air-in-line detection, occlusion alarms, and wireless connectivity for centralized monitoring.",
+          "image": "infusion-pumps.jpg",
+          "features": ["Drug library integration", "Dose error reduction", "Wireless connectivity", "High accuracy ±2%"],
+          "applications": ["IV therapy", "Chemotherapy", "TPN delivery", "Pain management"]
+        },
+        {
+          "id": "syringe-pumps",
+          "name": "Syringe Pumps",
+          "description": "High-precision syringe pumps designed for accurate delivery of critical medications at ultra-low flow rates. Compatible with all standard syringe sizes (5-60mL), featuring bolus delivery, pressure monitoring, and stackable design for multi-channel applications.",
+          "image": "syringe-pumps.jpg",
+          "features": ["Ultra-low flow rates", "Bolus delivery", "Pressure monitoring", "Stackable design"],
+          "applications": ["Neonatal care", "Anesthesia", "Critical care", "Oncology"]
+        },
+        {
+          "id": "defibrillators",
+          "name": "Defibrillators",
+          "description": "Biphasic defibrillators with synchronized cardioversion, AED mode, and manual override capabilities. Features include 12-lead ECG, SpO2 monitoring, built-in printer, and advanced CPR feedback technology to guide rescuers during resuscitation efforts.",
+          "image": "defibrillators.jpg",
+          "features": ["Biphasic technology", "AED + Manual modes", "CPR feedback", "12-lead ECG"],
+          "applications": ["Emergency departments", "ICU", "Ambulances", "Cardiac catheterization labs"]
+        }
+      ]
+    },
+    {
+      "id": "nicu-equipment",
+      "title": "NICU Equipment",
+      "slug": "nicu-equipment",
+      "description": "Specialized neonatal intensive care equipment engineered for the most vulnerable patients. Our NICU solutions provide precise temperature control, gentle ventilation, and comprehensive monitoring to support premature and critically ill newborns.",
+      "heroImage": "nicu-equipment-hero.jpg",
+      "instruments": [
+        {
+          "id": "baby-warmers",
+          "name": "Baby Warmers (Radiant)",
+          "description": "Open-care radiant warmers with servo-controlled heating maintaining precise skin temperature. Features include integrated pulse oximetry, phototherapy provision, resuscitation platform, and tilting bassinet. Provides 360° access for procedures while maintaining thermal stability.",
+          "image": "baby-warmers.jpg",
+          "features": ["Servo-controlled heating", "360° access", "Integrated monitoring", "Resuscitation platform"],
+          "applications": ["Delivery rooms", "NICU", "Post-natal care", "Emergency resuscitation"]
+        },
+        {
+          "id": "phototherapy-units",
+          "name": "Phototherapy Units",
+          "description": "High-intensity LED phototherapy systems delivering optimal blue-light spectrum (420-490nm) for effective treatment of neonatal jaundice. Features include adjustable irradiance levels, compact overhead and underneath configurations, and treatment hour counter for protocol management.",
+          "image": "phototherapy-units.jpg",
+          "features": ["Optimal blue-light spectrum", "Adjustable irradiance", "Dual-surface therapy", "Treatment timer"],
+          "applications": ["Neonatal jaundice", "Hyperbilirubinemia", "Preterm infant care", "Well-baby nurseries"]
+        },
+        {
+          "id": "infant-incubators",
+          "name": "Infant Incubators",
+          "description": "Microprocessor-controlled incubators providing precise temperature, humidity, and oxygen environment for premature infants. Features servo and air mode temperature control, double-wall construction for minimal heat loss, and integrated weighing for growth monitoring.",
+          "image": "infant-incubators.jpg",
+          "features": ["Precise environment control", "Double-wall insulation", "Integrated weighing", "Humidity control"],
+          "applications": ["Premature infant care", "Low birth weight babies", "Post-surgical neonates", "Transport"]
+        },
+        {
+          "id": "neonatal-ventilators",
+          "name": "Neonatal Ventilators",
+          "description": "Specialized ventilators designed for the delicate lungs of neonates, supporting conventional and high-frequency ventilation modes. Ultra-sensitive flow sensors detect minimal respiratory efforts, while volume guarantee ensures consistent tidal volumes for lung-protective ventilation.",
+          "image": "neonatal-ventilators.jpg",
+          "features": ["High-frequency ventilation", "Volume guarantee", "Ultra-sensitive sensors", "Leak compensation"],
+          "applications": ["NICU ventilation", "Premature infants", "Respiratory distress syndrome", "Transport ventilation"]
+        },
+        {
+          "id": "neonatal-pulse-oximeters",
+          "name": "Pulse Oximeters (Neonatal)",
+          "description": "Neonatal-specific pulse oximeters with motion-resistant technology and specialized sensors designed for tiny fingers and toes. Features include perfusion index monitoring, signal quality indicators, and customizable alarm limits for preterm and term neonates.",
+          "image": "neonatal-pulse-oximeters.jpg",
+          "features": ["Motion-resistant technology", "Neonatal sensors", "Perfusion index", "Customizable alarms"],
+          "applications": ["NICU monitoring", "Delivery rooms", "Well-baby screening", "Home monitoring"]
+        },
+        {
+          "id": "transport-incubators",
+          "name": "Transport Incubators",
+          "description": "Portable incubator systems designed for safe inter-hospital and intra-hospital transport of critically ill neonates. Battery-operated with integrated ventilator, monitor, and infusion pump mounts. Vibration-dampening suspension protects fragile infants during transit.",
+          "image": "transport-incubators.jpg",
+          "features": ["Battery operated", "Vibration dampening", "Integrated equipment mounts", "GPS tracking"],
+          "applications": ["Inter-hospital transfer", "Intra-hospital transport", "Emergency retrieval", "Air ambulance"]
+        }
+      ]
+    },
+    {
+      "id": "physiotherapy",
+      "title": "Physiotherapy Equipment",
+      "slug": "physiotherapy",
+      "description": "Complete physiotherapy and rehabilitation equipment for recovery, pain management, and wellness. Our range covers electrotherapy, mechanical therapy, exercise equipment, and hydrotherapy solutions for comprehensive rehabilitation programs.",
+      "heroImage": "physiotherapy-hero.jpg",
+      "instruments": [
+        {
+          "id": "short-wave-diathermy",
+          "name": "Short Wave Diathermy",
+          "description": "Therapeutic short wave diathermy units generating deep tissue heating at 27.12 MHz frequency. Offers both continuous and pulsed modes with adjustable power output. Capacitive and inductive applicators provide targeted treatment for musculoskeletal conditions and chronic pain.",
+          "image": "short-wave-diathermy.jpg",
+          "features": ["Continuous & pulsed modes", "Adjustable power", "Multiple applicators", "Timer control"],
+          "applications": ["Chronic pain", "Muscle spasms", "Joint stiffness", "Post-surgical rehabilitation"]
+        },
+        {
+          "id": "ultrasound-therapy",
+          "name": "Ultrasound Therapy Units",
+          "description": "Therapeutic ultrasound systems operating at 1 MHz and 3 MHz frequencies for deep and superficial tissue treatment. Features continuous and pulsed wave modes with adjustable intensity (0.1-3.0 W/cm²). Promotes tissue healing, reduces inflammation, and relieves pain.",
+          "image": "ultrasound-therapy.jpg",
+          "features": ["Dual frequency", "Pulsed & continuous modes", "Digital display", "Multiple transducer heads"],
+          "applications": ["Soft tissue injuries", "Tendonitis", "Bursitis", "Scar tissue treatment"]
+        },
+        {
+          "id": "tens-ems-machines",
+          "name": "TENS / EMS Machines",
+          "description": "Transcutaneous Electrical Nerve Stimulation (TENS) and Electrical Muscle Stimulation (EMS) combination units for pain relief and muscle rehabilitation. Multiple preset programs with customizable parameters including frequency, pulse width, and intensity for personalized treatment.",
+          "image": "tens-ems-machines.jpg",
+          "features": ["Multiple preset programs", "Customizable parameters", "Portable design", "Rechargeable battery"],
+          "applications": ["Pain management", "Muscle strengthening", "Post-operative rehab", "Sports injuries"]
+        },
+        {
+          "id": "cervical-lumbar-traction",
+          "name": "Cervical & Lumbar Traction",
+          "description": "Electronic traction systems providing controlled intermittent and sustained cervical and lumbar traction. Programmable force profiles with gradual ramp-up ensure patient comfort. Digital displays show real-time force, treatment time, and cycle parameters for precise therapy delivery.",
+          "image": "cervical-lumbar-traction.jpg",
+          "features": ["Electronic control", "Programmable profiles", "Intermittent & sustained", "Patient comfort features"],
+          "applications": ["Disc herniation", "Cervical spondylosis", "Sciatica", "Spinal decompression"]
+        },
+        {
+          "id": "exercise-equipment",
+          "name": "Exercise Equipment",
+          "description": "Professional-grade rehabilitation exercise equipment including parallel bars, shoulder wheels, finger ladders, pedal exercisers, and balance boards. Designed for progressive resistance training and functional recovery in physiotherapy departments and rehabilitation centers.",
+          "image": "exercise-equipment.jpg",
+          "features": ["Progressive resistance", "Adjustable settings", "Durable construction", "Multi-functional"],
+          "applications": ["Post-surgical rehab", "Stroke recovery", "Orthopedic rehab", "Geriatric care"]
+        },
+        {
+          "id": "wax-bath-units",
+          "name": "Wax Bath Units",
+          "description": "Thermostatically controlled paraffin wax bath units maintaining optimal temperature (52-54°C) for thermotherapy. Provides deep, moist heat to hands, feet, and joints for pain relief and improved mobility. Features rapid melting, temperature lock, and large capacity tanks.",
+          "image": "wax-bath-units.jpg",
+          "features": ["Precise temperature control", "Rapid melting", "Large capacity", "Safety thermostat"],
+          "applications": ["Arthritis treatment", "Hand therapy", "Joint stiffness", "Chronic pain relief"]
+        }
+      ]
+    },
+    {
+      "id": "patient-monitors",
+      "title": "Patient Monitoring Systems",
+      "slug": "patient-monitors",
+      "description": "Real-time patient monitoring systems for accurate vital sign tracking across all hospital departments. From bedside monitors to central stations, our systems provide continuous surveillance with intelligent alarm management and clinical decision support.",
+      "heroImage": "patient-monitors-hero.jpg",
+      "instruments": [
+        {
+          "id": "multi-parameter-monitors",
+          "name": "Multi-Parameter Monitors",
+          "description": "Comprehensive bedside monitors displaying ECG, SpO2, NIBP, temperature, respiration rate, and optional IBP, EtCO2, and cardiac output parameters. High-resolution touchscreens with customizable layouts, 72-hour trend storage, and network connectivity for seamless data sharing.",
+          "image": "multi-parameter-monitors.jpg",
+          "features": ["Touchscreen display", "72-hour trends", "Network connectivity", "Customizable layouts"],
+          "applications": ["ICU", "Operating rooms", "Emergency departments", "Step-down units"]
+        },
+        {
+          "id": "ecg-machines",
+          "name": "ECG Machines (12 Channel)",
+          "description": "12-channel diagnostic ECG machines with automatic interpretation, high-resolution thermal printing, and digital storage. Features include resting ECG, stress test protocols, and Holter analysis capabilities. Lightweight portable design enables bedside and clinic use.",
+          "image": "ecg-machines.jpg",
+          "features": ["12-channel recording", "Auto interpretation", "Digital storage", "Portable design"],
+          "applications": ["Cardiology clinics", "Health checkups", "Emergency screening", "Pre-operative assessment"]
+        },
+        {
+          "id": "pulse-oximeters",
+          "name": "Pulse Oximeters",
+          "description": "Medical-grade pulse oximeters providing accurate SpO2 and pulse rate measurement with advanced signal processing technology. Available in fingertip, handheld, and tabletop configurations. Features include plethysmograph waveform display, perfusion index, and adjustable alarm settings.",
+          "image": "pulse-oximeters.jpg",
+          "features": ["Advanced signal processing", "Multiple configurations", "Plethysmograph display", "Perfusion index"],
+          "applications": ["Spot-check monitoring", "Continuous monitoring", "Sleep studies", "Pulmonary rehab"]
+        },
+        {
+          "id": "blood-pressure-monitors",
+          "name": "Blood Pressure Monitors",
+          "description": "Clinical-grade automatic blood pressure monitors using oscillometric measurement with intelligent cuff inflation. Features include irregular heartbeat detection, multiple user memory, averaging function, and validation against mercury sphygmomanometer standards.",
+          "image": "blood-pressure-monitors.jpg",
+          "features": ["Oscillometric measurement", "Irregular heartbeat detection", "Multiple cuff sizes", "Clinical validation"],
+          "applications": ["OPD clinics", "Ward monitoring", "Health camps", "Home healthcare"]
+        },
+        {
+          "id": "fetal-monitors",
+          "name": "Fetal Monitors",
+          "description": "Cardiotocography (CTG) systems for continuous fetal heart rate and uterine contraction monitoring during pregnancy and labor. Features include twin monitoring, wireless transducers, automatic fetal movement detection, and advanced analysis algorithms for fetal well-being assessment.",
+          "image": "fetal-monitors.jpg",
+          "features": ["Twin monitoring", "Wireless transducers", "Auto fetal movement detection", "Advanced analysis"],
+          "applications": ["Labor monitoring", "Antenatal surveillance", "High-risk pregnancy", "Outpatient NST"]
+        },
+        {
+          "id": "central-monitoring-systems",
+          "name": "Central Monitoring Systems",
+          "description": "Networked central monitoring stations displaying real-time data from multiple bedside monitors simultaneously. Features include full disclosure waveform review, alarm escalation protocols, nurse call integration, and remote viewing capabilities for physician oversight.",
+          "image": "central-monitoring-systems.jpg",
+          "features": ["Multi-bed display", "Full disclosure review", "Alarm escalation", "Remote viewing"],
+          "applications": ["ICU central stations", "Telemetry units", "Labor wards", "Post-anesthesia care"]
+        }
+      ]
+    },
+    {
+      "id": "surgical-instruments",
+      "title": "Surgical & Diagnostic Instruments",
+      "slug": "surgical-instruments",
+      "description": "Precision surgical instruments and diagnostic equipment manufactured from premium-grade stainless steel. Our instruments undergo rigorous quality checks to ensure reliability, durability, and optimal performance across various surgical specialties.",
+      "heroImage": "surgical-instruments-hero.jpg",
+      "instruments": [
+        {
+          "id": "suction-machines",
+          "name": "Suction Machines",
+          "description": "High-vacuum surgical suction apparatus with adjustable vacuum pressure from 0-760 mmHg. Features include overflow protection, bacterial filter, autoclavable collection jars, and foot-pedal operation. Available in portable and wall-mounted configurations for versatile placement.",
+          "image": "suction-machines.jpg",
+          "features": ["Adjustable vacuum", "Overflow protection", "Bacterial filtration", "Foot-pedal operation"],
+          "applications": ["Surgery", "Emergency departments", "Dental procedures", "Airway management"]
+        },
+        {
+          "id": "cautery-machines",
+          "name": "Cautery Machines",
+          "description": "Electrocautery and radiofrequency cautery units for precise tissue cutting and hemostasis. Features include monopolar and bipolar modes, adjustable power settings, and specialized handpieces for different surgical applications. Built-in safety systems prevent accidental activation.",
+          "image": "cautery-machines.jpg",
+          "features": ["Monopolar & bipolar", "RF technology", "Safety systems", "Multiple handpieces"],
+          "applications": ["General surgery", "Gynecology", "Dermatology", "Ophthalmology"]
+        },
+        {
+          "id": "boyles-apparatus",
+          "name": "Boyles Apparatus",
+          "description": "Classic Boyle's anesthesia machine with continuous flow gas delivery system, precision vaporizers, and circle breathing system. Features include oxygen failure alarm, anti-hypoxia device, and pin-index cylinder yokes. Robust design suitable for hospitals with intermittent power supply.",
+          "image": "boyles-apparatus.jpg",
+          "features": ["Continuous flow delivery", "Precision vaporizers", "Oxygen failure alarm", "Robust construction"],
+          "applications": ["General anesthesia", "Rural hospitals", "Field hospitals", "Teaching institutions"]
+        },
+        {
+          "id": "autoclave-sterilizers",
+          "name": "Autoclave Sterilizers",
+          "description": "High-pressure steam sterilization systems operating at 121-134°C for complete microbial elimination. Available in horizontal, vertical, and tabletop configurations. Features include automatic cycle control, drying cycles, and validation ports for biological indicator testing.",
+          "image": "autoclave-sterilizers.jpg",
+          "features": ["Automatic cycle control", "Multiple configurations", "Drying cycles", "Validation ports"],
+          "applications": ["CSSD", "OT instruments", "Dental clinics", "Laboratory equipment"]
+        },
+        {
+          "id": "surgical-instrument-sets",
+          "name": "Surgical Instrument Sets",
+          "description": "Complete surgical instrument sets for general surgery, orthopedics, gynecology, and specialty procedures. Manufactured from German-grade stainless steel with mirror and satin finishes. Each set includes retractors, forceps, scissors, needle holders, and specialty instruments.",
+          "image": "surgical-instrument-sets.jpg",
+          "features": ["German-grade steel", "Complete sets", "Mirror/satin finish", "Laser-marked identification"],
+          "applications": ["General surgery", "Orthopedic surgery", "Gynecology", "ENT surgery"]
+        },
+        {
+          "id": "ent-diagnostic-sets",
+          "name": "ENT Diagnostic Sets",
+          "description": "Comprehensive ENT examination and diagnostic sets including otoscopes, ophthalmoscopes, nasal speculums, and laryngeal mirrors. LED illumination provides clear visualization. Wall-mounted and portable options available for OPD clinics and bedside examination.",
+          "image": "ent-diagnostic-sets.jpg",
+          "features": ["LED illumination", "Complete diagnostic tools", "Portable options", "Rechargeable battery"],
+          "applications": ["ENT clinics", "General practice", "Pediatric examination", "Health screening"]
+        }
+      ]
+    },
+    {
+      "id": "hospital-furniture",
+      "title": "Hospital Furniture",
+      "slug": "hospital-furniture",
+      "description": "Ergonomic and durable hospital furniture designed for patient comfort, staff efficiency, and infection control. Our furniture range combines robust construction with modern aesthetics, meeting healthcare facility standards for safety and hygiene.",
+      "heroImage": "hospital-furniture-hero.jpg",
+      "instruments": [
+        {
+          "id": "hospital-beds",
+          "name": "Hospital Beds (Manual & Electric)",
+          "description": "Versatile hospital beds available in manual crank and fully electric configurations. Features include adjustable head and foot sections, collapsible side rails, IV pole mounts, and castor wheels with central locking. Anti-microbial powder coating ensures long-lasting hygiene.",
+          "image": "hospital-beds.jpg",
+          "features": ["Manual & electric options", "Adjustable sections", "Collapsible side rails", "Central locking castors"],
+          "applications": ["General wards", "Private rooms", "Semi-ICU", "Rehabilitation centers"]
+        },
+        {
+          "id": "examination-tables",
+          "name": "Examination Tables",
+          "description": "Sturdy examination tables with adjustable backrest, padded upholstery, and paper roll holder. Available in fixed-height and hydraulic lift models. Features include stirrup attachments for gynecological examination, storage drawers, and easy-clean antimicrobial surfaces.",
+          "image": "examination-tables.jpg",
+          "features": ["Adjustable backrest", "Padded upholstery", "Storage drawers", "Hydraulic lift option"],
+          "applications": ["OPD clinics", "Gynecology", "Dermatology", "General examination"]
+        },
+        {
+          "id": "stretchers-trolleys",
+          "name": "Stretchers & Trolleys",
+          "description": "Patient transport stretchers and emergency trolleys with adjustable height, oxygen cylinder holder, IV rod, and four-sided collapsible railings. Lightweight aluminum construction with shock-absorbing wheels ensures smooth patient transfer across hospital floors.",
+          "image": "stretchers-trolleys.jpg",
+          "features": ["Adjustable height", "Oxygen cylinder holder", "Collapsible railings", "Shock-absorbing wheels"],
+          "applications": ["Emergency departments", "Patient transfer", "Ambulance loading", "Recovery rooms"]
+        },
+        {
+          "id": "bedside-lockers",
+          "name": "Bedside Lockers",
+          "description": "Compact bedside lockers with multiple compartments, overbed table attachment, and lockable cabinet. Made from pre-laminated board or stainless steel with anti-bacterial coating. Features include built-in electrical outlets and adjustable shelves for patient convenience.",
+          "image": "bedside-lockers.jpg",
+          "features": ["Multiple compartments", "Lockable cabinet", "Anti-bacterial coating", "Overbed table"],
+          "applications": ["Patient wards", "ICU rooms", "Private rooms", "Nursing homes"]
+        },
+        {
+          "id": "iv-stands-trolleys",
+          "name": "IV Stands & Instrument Trolleys",
+          "description": "Height-adjustable IV stands with multiple hooks and stable five-leg base. Instrument trolleys feature stainless steel construction with two or three shelves, drawer options, and push handle. Easy-rolling castors with brake function for secure positioning.",
+          "image": "iv-stands-trolleys.jpg",
+          "features": ["Height adjustable", "Stainless steel", "Multiple shelves", "Brake castors"],
+          "applications": ["Patient wards", "Procedure rooms", "Emergency departments", "OPD clinics"]
+        },
+        {
+          "id": "wheelchairs",
+          "name": "Wheelchairs",
+          "description": "Durable wheelchairs in standard, lightweight, and reclining configurations. Chrome-plated steel frames with detachable footrests, flip-back armrests, and pneumatic rear tires. Foldable design for easy storage and transport. Weight capacity options from 100kg to 150kg.",
+          "image": "wheelchairs.jpg",
+          "features": ["Foldable design", "Detachable footrests", "Pneumatic tires", "Multiple configurations"],
+          "applications": ["Patient mobility", "Outpatient transfer", "Home use", "Rehabilitation"]
+        }
+      ]
+    },
+    {
+      "id": "lab-equipment",
+      "title": "Laboratory Equipment",
+      "slug": "lab-equipment",
+      "description": "Modern laboratory equipment for accurate diagnostics, research, and clinical testing. Our lab solutions support pathology, biochemistry, microbiology, and hematology departments with reliable, calibrated instruments meeting international quality standards.",
+      "heroImage": "lab-equipment-hero.jpg",
+      "instruments": [
+        {
+          "id": "microscopes",
+          "name": "Microscopes",
+          "description": "Research and clinical-grade microscopes with LED illumination, multiple objective lenses (4x to 100x oil immersion), and binocular/trinocular heads. Features include Koehler illumination, mechanical stage with vernier scales, and optional digital camera for image capture and documentation.",
+          "image": "microscopes.jpg",
+          "features": ["LED illumination", "Multiple objectives", "Mechanical stage", "Digital camera option"],
+          "applications": ["Pathology", "Microbiology", "Hematology", "Research"]
+        },
+        {
+          "id": "centrifuges",
+          "name": "Centrifuges",
+          "description": "Laboratory centrifuges with variable speed control (500-15000 RPM) and programmable time settings. Available in micro, clinical, and refrigerated models. Features include imbalance detection, auto-lid lock, and multiple rotor options for different tube sizes and sample volumes.",
+          "image": "centrifuges.jpg",
+          "features": ["Variable speed control", "Programmable timer", "Imbalance detection", "Multiple rotors"],
+          "applications": ["Blood separation", "Urine analysis", "Cell culture", "DNA extraction"]
+        },
+        {
+          "id": "blood-analyzers",
+          "name": "Blood Analyzers",
+          "description": "Automated hematology analyzers providing complete blood count (CBC) with 3-part or 5-part differential. Processes 60-120 samples per hour with parameters including WBC, RBC, HGB, HCT, PLT, and reticulocyte count. Features include auto-sampling, QC management, and LIS connectivity.",
+          "image": "blood-analyzers.jpg",
+          "features": ["3-part/5-part differential", "Auto-sampling", "QC management", "LIS connectivity"],
+          "applications": ["Clinical pathology", "Blood banks", "Health checkups", "Research labs"]
+        },
+        {
+          "id": "biochemistry-analyzers",
+          "name": "Biochemistry Analyzers",
+          "description": "Semi-automatic and fully automatic biochemistry analyzers for comprehensive metabolic panels. Measures liver function, kidney function, lipid profile, glucose, and electrolytes. Features include open reagent system, barcode reader, and throughput of 100-400 tests per hour.",
+          "image": "biochemistry-analyzers.jpg",
+          "features": ["Open reagent system", "Barcode reader", "High throughput", "Multi-test capability"],
+          "applications": ["Clinical chemistry", "Metabolic panels", "Drug monitoring", "Diabetes management"]
+        },
+        {
+          "id": "medical-refrigerators",
+          "name": "Refrigerators (Medical Grade)",
+          "description": "Purpose-built medical refrigerators with precise temperature control (2-8°C) for vaccine, blood, and reagent storage. Features include digital temperature display, audible/visual alarms, data logging, forced-air circulation, and battery backup for power failure protection.",
+          "image": "medical-refrigerators.jpg",
+          "features": ["Precise temperature control", "Data logging", "Alarm systems", "Battery backup"],
+          "applications": ["Vaccine storage", "Blood bank", "Reagent storage", "Pharmacy"]
+        },
+        {
+          "id": "water-bath-units",
+          "name": "Water Bath Units",
+          "description": "Thermostatically controlled water baths with temperature range from ambient to 100°C and accuracy of ±0.5°C. Stainless steel chambers with concentric ring covers minimize evaporation. Available in various capacities from 5 to 28 liters for different laboratory applications.",
+          "image": "water-bath-units.jpg",
+          "features": ["Precise temperature ±0.5°C", "Stainless steel chamber", "Multiple capacities", "Digital control"],
+          "applications": ["Sample incubation", "Reagent warming", "Bacteriology", "Serology testing"]
+        }
+      ]
+    }
+  ]
+}
