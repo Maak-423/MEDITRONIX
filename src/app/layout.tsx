@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Meditronix - Advanced Medical Equipment Solutions",
+  title: "Diksha Meditronix - Advanced Medical Equipment Solutions",
   description:
-    "Meditronix is a leading manufacturer and distributor of hospital equipment including Operation Theatre, ICU, NICU, and Physiotherapy setups across India.",
+    "Diksha Meditronix is a leading manufacturer and distributor of hospital equipment including Operation Theatre, ICU, NICU, and Physiotherapy setups across India.",
 };
 
 export default function RootLayout({

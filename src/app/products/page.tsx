@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Products - Meditronix",
+  title: "Products - Diksha Meditronix",
   description:
     "Explore our comprehensive range of medical equipment including OT equipment, ICU setups, NICU systems, physiotherapy equipment, patient monitors, and more.",
 };

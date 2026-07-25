@@ -23,7 +23,7 @@ export default function Navbar() {
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">M</span>
             </div>
-            <span className="text-xl font-bold text-primary">MEDITRONIX</span>
+            <span className="text-xl font-bold text-primary">DIKSHA MEDITRONIX</span>
           </Link>
 
           {/* Desktop Navigation */}

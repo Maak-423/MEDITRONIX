@@ -144,7 +144,7 @@ export default function Home() {
                 Solutions
               </h1>
               <p className="mt-6 text-lg text-gray-200 leading-relaxed max-w-lg">
-                Meditronix is one of the leading companies in the field of
+                Diksha Meditronix is one of the leading companies in the field of
                 healthcare in India, manufacturing and distributing hospital
                 equipment for OT, ICU, NICU, Physiotherapy &amp; more.
               </p>
@@ -248,7 +248,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-dark">
-              Why Choose Meditronix?
+              Why Choose Diksha Meditronix?
             </h2>
             <p className="mt-4 text-gray text-lg">
               We are committed to delivering reliable, high-quality healthcare

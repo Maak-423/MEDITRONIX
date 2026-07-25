@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us - Meditronix",
+  title: "About Us - Diksha Meditronix",
   description:
-    "Learn about Meditronix - a leading manufacturer and distributor of medical equipment in India with expertise in OT, ICU, NICU, and Physiotherapy setups.",
+    "Learn about Diksha Meditronix - a leading manufacturer and distributor of medical equipment in India with expertise in OT, ICU, NICU, and Physiotherapy setups.",
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-primary to-primary-dark text-white py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold">About Meditronix</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">About Diksha Meditronix</h1>
             <p className="mt-6 text-lg text-gray-200 leading-relaxed">
               One of the leading companies in the field of healthcare in India,
               with a wide range of products and services catering to multiple
@@ -31,7 +31,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-dark mb-6">Our Story</h2>
               <div className="space-y-4 text-gray leading-relaxed">
                 <p>
-                  Meditronix Electronics Pvt. Ltd. was founded with a vision to
+                  Diksha Meditronix was founded with a vision to
                   revolutionize healthcare infrastructure in India. Starting from
                   our headquarters in Maharashtra, we have grown into one of the
                   most trusted names in medical equipment manufacturing and

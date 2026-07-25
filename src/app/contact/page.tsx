@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Meditronix",
+  title: "Contact Us - Diksha Meditronix",
   description:
-    "Get in touch with Meditronix for medical equipment inquiries, quotes, and support. Located in Dombivli, Maharashtra, India.",
+    "Get in touch with Diksha Meditronix for medical equipment inquiries, quotes, and support. Located in Virar West, Mumbai, Maharashtra, India.",
 };
 
 export default function ContactPage() {
@@ -67,11 +67,11 @@ export default function ContactPage() {
                       Office Address
                     </h3>
                     <p className="text-gray">
-                      Anant Smruti CHS, B3, Tata Lane,
+                      B/205 Gomati Building No 14,
                       <br />
-                      Ramnagar, Dombivli East,
+                      Unitech Westend, Virar West,
                       <br />
-                      Kalyan, Maharashtra 421201, India
+                      Mumbai, Maharashtra 401303, India
                     </p>
                   </div>
                 </div>
@@ -97,10 +97,10 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-dark mb-1">Phone</h3>
                     <p className="text-gray">
                       <a
-                        href="tel:+919773354994"
+                        href="tel:+919031978474"
                         className="hover:text-primary transition-colors"
                       >
-                        +91 97733 54994
+                        +91 90319 78474
                       </a>
                     </p>
                   </div>
@@ -127,10 +127,10 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-dark mb-1">Email</h3>
                     <p className="text-gray">
                       <a
-                        href="mailto:info@meditronix.in"
+                        href="mailto:dikshmedi859@gmail.com"
                         className="hover:text-primary transition-colors"
                       >
-                        info@meditronix.in
+                        dikshmedi859@gmail.com
                       </a>
                     </p>
                   </div>
@@ -183,14 +183,14 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gray-light rounded-2xl overflow-hidden h-80">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.0!2d73.09!3d19.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDEzJzEyLjAiTiA3M8KwMDUnMjQuMCJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.5!2d72.79!3d19.46!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI3JzM2LjAiTiA3MsKwNDcnMjQuMCJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Meditronix Location"
+              title="Diksha Meditronix Location"
             />
           </div>
         </div>

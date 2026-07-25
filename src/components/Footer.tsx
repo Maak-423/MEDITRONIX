@@ -11,7 +11,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg">M</span>
               </div>
-              <span className="text-xl font-bold">MEDITRONIX</span>
+              <span className="text-xl font-bold">DIKSHA MEDITRONIX</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Leading manufacturer and distributor of advanced medical and
@@ -92,9 +92,11 @@ export default function Footer() {
                   />
                 </svg>
                 <span>
-                  Dombivli East, Kalyan,
+                  B/205 Gomati Building No 14,
                   <br />
-                  Maharashtra 421201, India
+                  Unitech Westend, Virar West,
+                  <br />
+                  Mumbai, Maharashtra 401303
                 </span>
               </li>
               <li className="flex items-center gap-2">
@@ -111,7 +113,7 @@ export default function Footer() {
                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                   />
                 </svg>
-                <span>+91 97733 54994</span>
+                <span>+91 90319 78474</span>
               </li>
               <li className="flex items-center gap-2">
                 <svg
@@ -127,7 +129,7 @@ export default function Footer() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                <span>info@meditronix.in</span>
+                <span>dikshmedi859@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -136,7 +138,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Meditronix. All rights reserved.
+            &copy; {new Date().getFullYear()} Diksha Meditronix. All rights reserved.
           </p>
           <div className="flex gap-4">
             <a
